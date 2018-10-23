@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cev-IL-aZT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackground" translatesAutoresizingMaskIntoConstraints="NO" id="0Wz-Za-gS0">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
@@ -61,10 +64,14 @@
                             <constraint firstItem="YoU-tG-cxw" firstAttribute="top" secondItem="myX-rC-8Va" secondAttribute="bottom" constant="88" id="3ws-mb-gm2"/>
                             <constraint firstItem="0Wz-Za-gS0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5mk-BC-2bD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Wz-Za-gS0" secondAttribute="bottom" id="6lL-bE-H3R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cev-IL-aZT" secondAttribute="bottom" id="BUa-Qm-vG6"/>
+                            <constraint firstItem="Cev-IL-aZT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HZX-tw-eGp"/>
                             <constraint firstItem="myX-rC-8Va" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="LMY-Uo-fMm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="myX-rC-8Va" secondAttribute="trailing" constant="68" id="QfE-Jz-ueZ"/>
+                            <constraint firstItem="Cev-IL-aZT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VuU-sI-yTa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IDm-hL-ItQ" secondAttribute="trailing" constant="40" id="ecN-80-oow"/>
                             <constraint firstItem="IDm-hL-ItQ" firstAttribute="top" secondItem="myX-rC-8Va" secondAttribute="bottom" constant="88" id="ffK-f7-6Ge"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cev-IL-aZT" secondAttribute="trailing" id="fso-IJ-tqy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Wz-Za-gS0" secondAttribute="trailing" id="rwf-LI-qLc"/>
                             <constraint firstItem="YoU-tG-cxw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="scV-Pd-0eM"/>
                         </constraints>
